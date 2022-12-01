@@ -1,6 +1,6 @@
 [package]
 name = "aleo-prover"
-version = "0.4.4"
+version = "0.5.0"
 edition = "2021"
 license = "GPL-3.0-or-later"
 
@@ -32,6 +32,7 @@ byteorder = "1.4.3"
 ansi_term = "0.12.1"
 json-rpc-types = "1.2.0"
 hex = "0.4.3"
+dotenvy = "0.15.6"
 
 #[dependencies.aleo-stratum]
 #git = "https://github.com/HarukaMa/aleo-pool-server"
@@ -60,7 +61,6 @@ version = "1.0.89"
 features = ["preserve_order"]
 
 [features]
-# cuda = ["snarkvm/cuda"]
 cuda = ["snarkvm-algorithms/cuda"]
 
 [profile.dev]
